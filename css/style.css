@@ -528,7 +528,7 @@ img {
 
 .hero-signature-wrapper {
     position: absolute;
-    bottom: -50px;
+    bottom: 0;
     right: 0;
     left: 0;
     text-align: center;
@@ -538,6 +538,7 @@ img {
 }
 
 .hero-signature {
+    width: 60%;
     max-width: 280px;
     /* Bigger but balanced */
     height: auto;
